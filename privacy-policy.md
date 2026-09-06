@@ -1,6 +1,6 @@
 # Privacy Policy — Drop & Evolve
 
-**Effective date:** _(set to the date the app is first published)_
+**Effective date:** 2026-09-06
 **Last updated:** 2026-09-06
 
 Drop & Evolve ("the app", "the game") is developed by **GC Apps** ("we", "us").
