@@ -55,7 +55,7 @@ It is written to be read, not to be survived.</p>
 explicitly agree, and you can disable it again at any time from the in-app
 Settings screen. If you decline, or if you never answer, nothing in this
 section is collected.</p>
-<p>If you opt in, the app uses <strong>Google Firebase Analytics</strong> to record these eight
+<p>If you opt in, the app uses <strong>Google Firebase Analytics</strong> to record these ten
 events, and nothing else:</p>
 <table>
 <thead>
@@ -71,11 +71,11 @@ events, and nothing else:</p>
 </tr>
 <tr>
 <td><code>level_complete</code></td>
-<td>Which level was completed, and the star rating</td>
+<td>Which level was completed, the star rating, and how many of its drops were used</td>
 </tr>
 <tr>
 <td><code>level_fail</code></td>
-<td>Which level was failed, and the star rating</td>
+<td>Which level was failed, the star rating, how many of its drops were used, and whether it ended on the drop limit, a full jar or the clock</td>
 </tr>
 <tr>
 <td><code>creature_discovered</code></td>
@@ -96,6 +96,14 @@ events, and nothing else:</p>
 <tr>
 <td><code>rewarded_failed</code></td>
 <td>That a rewarded ad could not be shown</td>
+</tr>
+<tr>
+<td><code>rescue_used</code></td>
+<td>That a lost level or Endless run was rescued, and whether with in-game coins or a rewarded ad</td>
+</tr>
+<tr>
+<td><code>shop_purchase</code></td>
+<td>Which item was bought in the in-game shop, and its price in in-game coins (never real money)</td>
 </tr>
 </tbody>
 </table>

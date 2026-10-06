@@ -36,19 +36,21 @@ explicitly agree, and you can disable it again at any time from the in-app
 Settings screen. If you decline, or if you never answer, nothing in this
 section is collected.
 
-If you opt in, the app uses **Google Firebase Analytics** to record these eight
+If you opt in, the app uses **Google Firebase Analytics** to record these ten
 events, and nothing else:
 
 | Event | What it records |
 |---|---|
 | `level_start` | Which level was started |
-| `level_complete` | Which level was completed, and the star rating |
-| `level_fail` | Which level was failed, and the star rating |
+| `level_complete` | Which level was completed, the star rating, and how many of its drops were used |
+| `level_fail` | Which level was failed, the star rating, how many of its drops were used, and whether it ended on the drop limit, a full jar or the clock |
 | `creature_discovered` | Which creature tier and variant was discovered |
 | `endless_game_over` | The run's score and your best score |
 | `rewarded_shown` | That a rewarded ad was displayed, and which reward |
 | `rewarded_completed` | That a rewarded ad was watched to the end |
 | `rewarded_failed` | That a rewarded ad could not be shown |
+| `rescue_used` | That a lost level or Endless run was rescued, and whether with in-game coins or a rewarded ad |
+| `shop_purchase` | Which item was bought in the in-game shop, and its price in in-game coins (never real money) |
 
 These payloads contain only numbers and short internal labels. They contain no
 personal information and nothing you have typed.
