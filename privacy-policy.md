@@ -1,7 +1,7 @@
 # Privacy Policy — Drop & Evolve
 
 **Effective date:** 2026-09-06
-**Last updated:** 2026-09-06
+**Last updated:** 2026-10-06
 
 Drop & Evolve ("the app", "the game") is developed by **GC Apps** ("we", "us").
 
@@ -14,15 +14,16 @@ It is written to be read, not to be survived.
 
 ## The short version
 
-- The app has **no accounts, no sign-in, and no purchases.** We never ask for
+- The app has **no accounts, no sign-in, and no real-money purchases.** We never ask for
   your name, email address, phone number, contacts, photos or precise location.
 - **Your game progress never leaves your phone.** Your collection, coins,
   levels and settings are stored on the device and are deleted when you
   uninstall the app.
 - **Analytics is off until you switch it on.** Nothing is sent to us unless you
   explicitly opt in, and you can opt back out at any time in Settings.
-- **Ads are shown only when you choose to watch one.** They are rewarded videos
-  you tap to start. There are no banners and no ads that interrupt play.
+- **No ad ever interrupts play.** Video ads are rewarded videos you tap to
+  start; the only other ad is a small banner in a strip at the bottom of the
+  screen.
 
 ---
 
@@ -64,9 +65,10 @@ identify you and is never sold.
 
 ### 2. Advertising — Google AdMob
 
-The app shows **rewarded video ads only**. You always start them yourself by
-tapping an offer; no ad ever interrupts a run, and there are no banner ads
-anywhere in the app.
+The app shows two kinds of ad. **Rewarded videos**, which you always start
+yourself by tapping an offer, and a **banner** in a fixed strip at the bottom
+of the screen. No ad ever interrupts a run: there are no pop-up or full-screen
+ads you did not choose.
 
 To serve these, **Google AdMob** processes your device's **advertising ID**,
 your **IP address**, and your interactions with the ad. Whether you see
