@@ -34,7 +34,8 @@ It is written to be read, not to be survived.
 Analytics collection is **disabled by default**. It is enabled only if you
 explicitly agree, and you can disable it again at any time from the in-app
 Settings screen. If you decline, or if you never answer, nothing in this
-section is collected.
+section is collected. The app asks you once, after you first complete a level,
+with two equal choices; if you decline, it does not ask again.
 
 If you opt in, the app uses **Google Firebase Analytics** to record these ten
 events, and nothing else:
