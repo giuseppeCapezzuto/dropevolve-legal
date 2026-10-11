@@ -1,7 +1,7 @@
 # Privacy Policy — Drop & Evolve
 
 **Effective date:** 2026-09-06
-**Last updated:** 2026-10-06
+**Last updated:** 2026-10-11
 
 Drop & Evolve ("the app", "the game") is developed by **GC Apps** ("we", "us").
 
@@ -148,12 +148,40 @@ authority of the EU country where you live.
 
 ---
 
+## Deleting your data
+
+Drop & Evolve has no account, so there is nothing to close. To have your data
+deleted:
+
+1. **Delete what is on your phone.** Uninstall the app, or open Android
+   **Settings → Apps → Drop & Evolve → Storage → Clear storage**. This erases
+   your progress, collection, coins and settings for good; we never had a copy.
+2. **Stop anything new being collected.** In the app, open **Settings**, turn
+   the analytics switch off, and use the privacy options row to withdraw ads
+   consent.
+3. **Delete your advertising ID.** On Android, open **Settings → Google → Ads**
+   (on some phones **Settings → Privacy → Ads**) and choose **Delete
+   advertising ID**. Advertising data Google already holds is then no longer
+   linked to your phone.
+4. **Ask us to erase analytics data.** Email **gcapplicationdev@gmail.com** with
+   the subject "Delete my data — Drop & Evolve". If you never switched
+   analytics on, there is none. We reply within one month.
+
+**What is deleted, and what is kept.** Your save file is deleted in step 1.
+Analytics data is deleted on request where we can link it to your device, and
+in every case automatically at the end of Firebase's retention window.
+Advertising data is held by Google, not by us, and is kept under Google's own
+retention policy (https://policies.google.com/technologies/retention). We keep
+nothing else.
+
+---
+
 ## Who else processes this data
 
 | Processor | Purpose | Their policy |
 |---|---|---|
 | Google Firebase Analytics | Gameplay analytics, only if you opted in | https://firebase.google.com/support/privacy |
-| Google AdMob | Serving rewarded video ads | https://policies.google.com/technologies/ads |
+| Google AdMob | Serving rewarded video and banner ads | https://policies.google.com/technologies/ads |
 | Google Play | App distribution | https://policies.google.com/privacy |
 
 Data processed by these services may be transferred outside the European
