@@ -58,7 +58,7 @@ explicitly agree, and you can disable it again at any time from the in-app
 Settings screen. If you decline, or if you never answer, nothing in this
 section is collected. The app asks you once, after you first complete a level,
 with two equal choices; if you decline, it does not ask again.</p>
-<p>If you opt in, the app uses <strong>Google Firebase Analytics</strong> to record these ten
+<p>If you opt in, the app uses <strong>Google Firebase Analytics</strong> to record these eleven
 events, and nothing else:</p>
 <table>
 <thead>
@@ -107,6 +107,10 @@ events, and nothing else:</p>
 <tr>
 <td><code>shop_purchase</code></td>
 <td>Which item was bought in the in-game shop, and its price in in-game coins (never real money)</td>
+</tr>
+<tr>
+<td><code>day_active</code></td>
+<td>That the game was opened on a given day, at most once a day, and how many days have passed since it was first opened on this device</td>
 </tr>
 </tbody>
 </table>

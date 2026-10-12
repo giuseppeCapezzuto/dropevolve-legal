@@ -39,7 +39,7 @@ Settings screen. If you decline, or if you never answer, nothing in this
 section is collected. The app asks you once, after you first complete a level,
 with two equal choices; if you decline, it does not ask again.
 
-If you opt in, the app uses **Google Firebase Analytics** to record these ten
+If you opt in, the app uses **Google Firebase Analytics** to record these eleven
 events, and nothing else:
 
 | Event | What it records |
@@ -54,6 +54,7 @@ events, and nothing else:
 | `rewarded_failed` | That a rewarded ad could not be shown |
 | `rescue_used` | That a lost level or Endless run was rescued, and whether with in-game coins or a rewarded ad |
 | `shop_purchase` | Which item was bought in the in-game shop, and its price in in-game coins (never real money) |
+| `day_active` | That the game was opened on a given day, at most once a day, and how many days have passed since it was first opened on this device |
 
 These payloads contain only numbers and short internal labels. They contain no
 personal information and nothing you have typed.
