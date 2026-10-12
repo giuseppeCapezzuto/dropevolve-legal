@@ -1,7 +1,7 @@
 # Privacy Policy — Drop & Evolve
 
 **Effective date:** 2026-09-06
-**Last updated:** 2026-10-11
+**Last updated:** 2026-10-12
 
 Drop & Evolve ("the app", "the game") is developed by **GC Apps** ("we", "us").
 
@@ -14,11 +14,13 @@ It is written to be read, not to be survived.
 
 ## The short version
 
-- The app has **no accounts, no sign-in, and no real-money purchases.** We never ask for
-  your name, email address, phone number, contacts, photos or precise location.
-- **Your game progress never leaves your phone.** Your collection, coins,
-  levels and settings are stored on the device and are deleted when you
-  uninstall the app.
+- The app has **no accounts of its own and no real-money purchases.** We never
+  ask for your name, email address, phone number, contacts, photos or precise
+  location.
+- **Your progress is backed up to your own Google account, never to us.** If
+  you use Google Play Games, your collection, coins and levels are saved there,
+  so a new phone or a reinstall picks them up. Android's own backup may keep a
+  copy of the save file in your Google account too. We never receive either.
 - **Analytics is off until you switch it on.** Nothing is sent to us unless you
   explicitly opt in, and you can opt back out at any time in Settings.
 - **No ad ever interrupts play.** Video ads are rewarded videos you tap to
@@ -84,16 +86,30 @@ fraud prevention, but are not selected based on a profile of your interests.
 You can reset or delete your advertising ID at any time in your device's
 **Settings → Privacy → Ads**.
 
-### 3. Stored on your device only — never sent to us
+### 3. Your game progress — on your phone and in your Google account
 
 The following is written to a save file inside the app's private storage on your
-phone. It is **not transmitted anywhere**, not backed up to us, and is removed
-when you uninstall the app:
+phone:
 
 - Which creatures you have discovered, and their variants
 - Your level progress, star ratings and best scores
 - Coins, purchased cosmetics and boosters
 - Your settings: language, haptics, sound, music, and your analytics choice
+
+**It is never sent to us.** Two Google services can keep a copy **in your own
+Google account**, so your progress survives a new phone or a reinstall:
+
+- **Google Play Games.** If you are signed in to Play Games — most Android
+  phones sign you in automatically, and you can also sign in from the game's
+  Settings — the game saves your discoveries, levels, best score, coins,
+  cosmetics and boosters there (never your settings). To sign you in, Play Games
+  shares your Play Games profile with the game: your player ID, gamer name and
+  avatar. Google also collects its own diagnostics to keep the service working.
+  If you do not sign in, nothing is saved to Play Games and the game works
+  exactly the same.
+- **Android backup.** If backup is turned on for your phone, Android copies the
+  save file (and only the save file) to your Google account and restores it when
+  you reinstall. This follows your phone's backup setting, not ours.
 
 ### 4. What we never collect
 
@@ -128,12 +144,14 @@ Regulation applies to this app everywhere it is distributed.
 **Legal basis.** Analytics and personalised advertising are processed on the
 basis of your **consent** (GDPR Art. 6(1)(a)), which you give through the
 in-app consent form and the Settings screen, and which you may withdraw at any
-time without affecting the lawfulness of processing before withdrawal.
+time without affecting the lawfulness of processing before withdrawal. Saving
+your progress to Google Play Games is processed to provide the cloud save you
+use by signing in (Art. 6(1)(b)); you can stop it by signing out of Play Games.
 
 **Your rights.** You have the right to request access to, correction of,
 erasure of, or restriction of processing of your personal data; to object to
-processing; and to data portability. Because the app holds no account and no
-identifier that points to you as a person, we will usually need the advertising
+processing; and to data portability. Because the app holds no account of its
+own and we receive no identifier that points to you as a person, we will usually need the advertising
 ID or app instance ID from your device to act on such a request. Write to
 **gcapplicationdev@gmail.com** and we will respond within one month.
 
@@ -150,24 +168,31 @@ authority of the EU country where you live.
 
 ## Deleting your data
 
-Drop & Evolve has no account, so there is nothing to close. To have your data
-deleted:
+Drop & Evolve has no account of its own, so there is nothing to close. To have
+your data deleted:
 
 1. **Delete what is on your phone.** Uninstall the app, or open Android
    **Settings → Apps → Drop & Evolve → Storage → Clear storage**. This erases
-   your progress, collection, coins and settings for good; we never had a copy.
-2. **Stop anything new being collected.** In the app, open **Settings**, turn
+   your progress, collection, coins and settings on the phone; we never had a
+   copy.
+2. **Delete the copies in your Google account.** Your Play Games save is
+   deleted from **Google Play Games → Settings → Delete Play Games account &
+   data**, where each game's data can be deleted on its own. Android backups
+   are managed, and can be deleted, in your Google account's backup settings.
+   Delete both before reinstalling, or the game will restore your progress.
+3. **Stop anything new being collected.** In the app, open **Settings**, turn
    the analytics switch off, and use the privacy options row to withdraw ads
    consent.
-3. **Delete your advertising ID.** On Android, open **Settings → Google → Ads**
+4. **Delete your advertising ID.** On Android, open **Settings → Google → Ads**
    (on some phones **Settings → Privacy → Ads**) and choose **Delete
    advertising ID**. Advertising data Google already holds is then no longer
    linked to your phone.
-4. **Ask us to erase analytics data.** Email **gcapplicationdev@gmail.com** with
+5. **Ask us to erase analytics data.** Email **gcapplicationdev@gmail.com** with
    the subject "Delete my data — Drop & Evolve". If you never switched
    analytics on, there is none. We reply within one month.
 
-**What is deleted, and what is kept.** Your save file is deleted in step 1.
+**What is deleted, and what is kept.** Your save file is deleted in step 1,
+and its copies in your Google account in step 2.
 Analytics data is deleted on request where we can link it to your device, and
 in every case automatically at the end of Firebase's retention window.
 Advertising data is held by Google, not by us, and is kept under Google's own
@@ -183,6 +208,8 @@ nothing else.
 | Google Firebase Analytics | Gameplay analytics, only if you opted in | https://firebase.google.com/support/privacy |
 | Google AdMob | Serving rewarded video and banner ads | https://policies.google.com/technologies/ads |
 | Google Play | App distribution | https://policies.google.com/privacy |
+| Google Play Games services | Sign-in and saving your progress, only if you use Play Games | https://policies.google.com/privacy |
+| Android backup (Google) | Backing up the save file, only if backup is on for your phone | https://policies.google.com/privacy |
 
 Data processed by these services may be transferred outside the European
 Economic Area. Google relies on the EU Standard Contractual Clauses and, for the
@@ -193,7 +220,8 @@ United States, the EU–US Data Privacy Framework for such transfers.
 Analytics data is retained by Firebase according to the project's configured
 retention window and is then deleted automatically. Advertising data is retained
 by Google under its own advertising policies. Data stored on your device is kept
-until you delete it in-app or uninstall the app.
+until you delete it in-app or uninstall the app. Copies of your progress in
+your Google account are kept until you delete them (see *Deleting your data*).
 
 ---
 
