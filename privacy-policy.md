@@ -54,7 +54,7 @@ events, and nothing else:
 | `rewarded_failed` | That a rewarded ad could not be shown |
 | `rescue_used` | That a lost level or Endless run was rescued, and whether with in-game coins or a rewarded ad |
 | `shop_purchase` | Which item was bought in the in-game shop, and its price in in-game coins (never real money) |
-| `day_active` | That the game was opened on a given day, at most once a day, and how many days have passed since it was first opened on this device |
+| `day_active` | That the game was opened on a given day, at most once a day, how many days have passed since it was first opened on this device, and how many days in a row farm orders have been delivered |
 
 These payloads contain only numbers and short internal labels. They contain no
 personal information and nothing you have typed.
