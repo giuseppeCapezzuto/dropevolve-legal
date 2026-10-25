@@ -1,9 +1,9 @@
-# Privacy Policy — Drop & Evolve
+# Privacy Policy — Drop & Merge
 
 **Effective date:** 2026-09-06
-**Last updated:** 2026-10-12
+**Last updated:** 2026-10-25
 
-Drop & Evolve ("the app", "the game") is developed by **GC Apps** ("we", "us").
+Drop & Merge, formerly Drop & Evolve ("the app", "the game"), is developed by **GC Apps** ("we", "us").
 
 Contact for any privacy question or request: **gcapplicationdev@gmail.com**
 
@@ -169,11 +169,11 @@ authority of the EU country where you live.
 
 ## Deleting your data
 
-Drop & Evolve has no account of its own, so there is nothing to close. To have
+Drop & Merge has no account of its own, so there is nothing to close. To have
 your data deleted:
 
 1. **Delete what is on your phone.** Uninstall the app, or open Android
-   **Settings → Apps → Drop & Evolve → Storage → Clear storage**. This erases
+   **Settings → Apps → Drop & Merge → Storage → Clear storage**. This erases
    your progress, collection, coins and settings on the phone; we never had a
    copy.
 2. **Delete the copies in your Google account.** Your Play Games save is
@@ -189,7 +189,7 @@ your data deleted:
    advertising ID**. Advertising data Google already holds is then no longer
    linked to your phone.
 5. **Ask us to erase analytics data.** Email **gcapplicationdev@gmail.com** with
-   the subject "Delete my data — Drop & Evolve". If you never switched
+   the subject "Delete my data — Drop & Merge". If you never switched
    analytics on, there is none. We reply within one month.
 
 **What is deleted, and what is kept.** Your save file is deleted in step 1,
@@ -228,7 +228,7 @@ your Google account are kept until you delete them (see *Deleting your data*).
 
 ## Children
 
-Drop & Evolve is intended for players aged **13 and over**. It is not directed
+Drop & Merge is intended for players aged **13 and over**. It is not directed
 to children, it is not enrolled in Google Play's Families programme, and we do
 not knowingly collect data from children under 13. If you believe a child has
 provided us with data, contact **gcapplicationdev@gmail.com** and we will delete
