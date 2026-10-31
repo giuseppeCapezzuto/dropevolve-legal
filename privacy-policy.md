@@ -1,7 +1,7 @@
 # Privacy Policy — Drop & Merge
 
 **Effective date:** 2026-09-06
-**Last updated:** 2026-10-25
+**Last updated:** 2026-10-31
 
 Drop & Merge, formerly Drop & Evolve ("the app", "the game"), is developed by **GC Apps** ("we", "us").
 
@@ -39,7 +39,7 @@ Settings screen. If you decline, or if you never answer, nothing in this
 section is collected. The app asks you once, after you first complete a level,
 with two equal choices; if you decline, it does not ask again.
 
-If you opt in, the app uses **Google Firebase Analytics** to record these eleven
+If you opt in, the app uses **Google Firebase Analytics** to record these twelve
 events, and nothing else:
 
 | Event | What it records |
@@ -50,10 +50,11 @@ events, and nothing else:
 | `creature_discovered` | Which creature tier and variant was discovered |
 | `endless_game_over` | The run's score and your best score |
 | `rewarded_shown` | That a rewarded ad was displayed, and which reward |
-| `rewarded_completed` | That a rewarded ad was watched to the end |
+| `rewarded_completed` | That a rewarded ad was watched to the end, and for a free booster which one was picked |
 | `rewarded_failed` | That a rewarded ad could not be shown |
 | `rescue_used` | That a lost level or Endless run was rescued, and whether with in-game coins or a rewarded ad |
 | `shop_purchase` | Which item was bought in the in-game shop, and its price in in-game coins (never real money) |
+| `booster_used` | Which booster was used, and whether in a level or Endless |
 | `day_active` | That the game was opened on a given day, at most once a day, how many days have passed since it was first opened on this device, and how many days in a row farm orders have been delivered |
 
 These payloads contain only numbers and short internal labels. They contain no
