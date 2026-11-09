@@ -1,7 +1,7 @@
 # Privacy Policy — Drop & Merge
 
 **Effective date:** 2026-09-06
-**Last updated:** 2026-10-31
+**Last updated:** 2026-11-09
 
 Drop & Merge, formerly Drop & Evolve ("the app", "the game"), is developed by **GC Apps** ("we", "us").
 
@@ -39,7 +39,7 @@ Settings screen. If you decline, or if you never answer, nothing in this
 section is collected. The app asks you once, after you first complete a level,
 with two equal choices; if you decline, it does not ask again.
 
-If you opt in, the app uses **Google Firebase Analytics** to record these twelve
+If you opt in, the app uses **Google Firebase Analytics** to record these thirteen
 events, and nothing else:
 
 | Event | What it records |
@@ -55,6 +55,7 @@ events, and nothing else:
 | `rescue_used` | That a lost level or Endless run was rescued, and whether with in-game coins or a rewarded ad |
 | `shop_purchase` | Which item was bought in the in-game shop, and its price in in-game coins (never real money) |
 | `booster_used` | Which booster was used, and whether in a level or Endless |
+| `notification_opened` | That a game notification was tapped, and which kind (farm, streak or comeback) |
 | `day_active` | That the game was opened on a given day, at most once a day, how many days have passed since it was first opened on this device, and how many days in a row farm orders have been delivered |
 
 These payloads contain only numbers and short internal labels. They contain no
@@ -128,6 +129,7 @@ content, no social features and no in-app purchases.
 |---|---|
 | `INTERNET`, `ACCESS_NETWORK_STATE` | To load ads and, if you opted in, send analytics |
 | `VIBRATE` | Haptic feedback on merges and button presses |
+| `POST_NOTIFICATIONS`, `RECEIVE_BOOT_COMPLETED` | Reminders that your farm is full or your streak is about to end. They are scheduled on your phone, restored if it restarts, send nothing to us, and can be turned off in Settings |
 | `AD_ID` | Required by Google AdMob to serve ads |
 | `ACCESS_ADSERVICES_TOPICS`, `ACCESS_ADSERVICES_AD_ID`, `ACCESS_ADSERVICES_ATTRIBUTION` | Added by the Google Mobile Ads SDK for Android's Privacy Sandbox |
 | `READ_BASIC_PHONE_STATE`, `WAKE_LOCK`, `FOREGROUND_SERVICE`, `BIND_GET_INSTALL_REFERRER_SERVICE` | Added automatically by Google Play services and the ads SDK. The last is Play's install-referrer service, used for install attribution. |
