@@ -1,7 +1,7 @@
 # Privacy Policy — Drop & Merge
 
 **Effective date:** 2026-09-06
-**Last updated:** 2026-11-09
+**Last updated:** 2026-11-11
 
 Drop & Merge, formerly Drop & Evolve ("the app", "the game"), is developed by **GC Apps** ("we", "us").
 
@@ -39,14 +39,15 @@ Settings screen. If you decline, or if you never answer, nothing in this
 section is collected. The app asks you once, after you first complete a level,
 with two equal choices; if you decline, it does not ask again.
 
-If you opt in, the app uses **Google Firebase Analytics** to record these thirteen
+If you opt in, the app uses **Google Firebase Analytics** to record these sixteen
 events, and nothing else:
 
 | Event | What it records |
 |---|---|
-| `level_start` | Which level was started |
+| `level_start` | Which level was started, and which try at it this is |
 | `level_complete` | Which level was completed, the star rating, and how many of its drops were used |
 | `level_fail` | Which level was failed, the star rating, how many of its drops were used, and whether it ended on the drop limit, a full jar or the clock |
+| `level_quit` | Which level was left or restarted before it ended, and how many of its drops were used |
 | `creature_discovered` | Which creature tier and variant was discovered |
 | `endless_game_over` | The run's score and your best score |
 | `rewarded_shown` | That a rewarded ad was displayed, and which reward |
@@ -57,6 +58,8 @@ events, and nothing else:
 | `booster_used` | Which booster was used, and whether in a level or Endless |
 | `notification_opened` | That a game notification was tapped, and which kind (farm, streak or comeback) |
 | `day_active` | That the game was opened on a given day, at most once a day, how many days have passed since it was first opened on this device, and how many days in a row farm orders have been delivered |
+| `quest_claimed` | That farm quest rewards were collected, which kind (quest, streak gift or Daily Jar) and how many |
+| `farm_build` | Which farm building was restored or upgraded, and to which stage |
 
 These payloads contain only numbers and short internal labels. They contain no
 personal information and nothing you have typed.

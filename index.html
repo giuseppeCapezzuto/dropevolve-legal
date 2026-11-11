@@ -29,7 +29,7 @@
 </style></head><body>
 <h1 id="privacy-policy-drop-merge">Privacy Policy — Drop &amp; Merge</h1>
 <p><strong>Effective date:</strong> 2026-09-06
-<strong>Last updated:</strong> 2026-11-09</p>
+<strong>Last updated:</strong> 2026-11-11</p>
 <p>Drop &amp; Merge, formerly Drop &amp; Evolve ("the app", "the game"), is developed by <strong>GC Apps</strong> ("we", "us").</p>
 <p>Contact for any privacy question or request: <strong>gcapplicationdev@gmail.com</strong></p>
 <p>This policy explains what the app collects, why, and what you can do about it.
@@ -58,7 +58,7 @@ explicitly agree, and you can disable it again at any time from the in-app
 Settings screen. If you decline, or if you never answer, nothing in this
 section is collected. The app asks you once, after you first complete a level,
 with two equal choices; if you decline, it does not ask again.</p>
-<p>If you opt in, the app uses <strong>Google Firebase Analytics</strong> to record these thirteen
+<p>If you opt in, the app uses <strong>Google Firebase Analytics</strong> to record these sixteen
 events, and nothing else:</p>
 <table>
 <thead>
@@ -70,7 +70,7 @@ events, and nothing else:</p>
 <tbody>
 <tr>
 <td><code>level_start</code></td>
-<td>Which level was started</td>
+<td>Which level was started, and which try at it this is</td>
 </tr>
 <tr>
 <td><code>level_complete</code></td>
@@ -79,6 +79,10 @@ events, and nothing else:</p>
 <tr>
 <td><code>level_fail</code></td>
 <td>Which level was failed, the star rating, how many of its drops were used, and whether it ended on the drop limit, a full jar or the clock</td>
+</tr>
+<tr>
+<td><code>level_quit</code></td>
+<td>Which level was left or restarted before it ended, and how many of its drops were used</td>
 </tr>
 <tr>
 <td><code>creature_discovered</code></td>
@@ -119,6 +123,14 @@ events, and nothing else:</p>
 <tr>
 <td><code>day_active</code></td>
 <td>That the game was opened on a given day, at most once a day, how many days have passed since it was first opened on this device, and how many days in a row farm orders have been delivered</td>
+</tr>
+<tr>
+<td><code>quest_claimed</code></td>
+<td>That farm quest rewards were collected, which kind (quest, streak gift or Daily Jar) and how many</td>
+</tr>
+<tr>
+<td><code>farm_build</code></td>
+<td>Which farm building was restored or upgraded, and to which stage</td>
 </tr>
 </tbody>
 </table>
