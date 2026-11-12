@@ -1,7 +1,7 @@
 # Privacy Policy — Drop & Merge
 
 **Effective date:** 2026-09-06
-**Last updated:** 2026-11-11
+**Last updated:** 2026-11-12
 
 Drop & Merge, formerly Drop & Evolve ("the app", "the game"), is developed by **GC Apps** ("we", "us").
 
@@ -57,7 +57,7 @@ events, and nothing else:
 | `shop_purchase` | Which item was bought in the in-game shop, and its price in in-game coins (never real money) |
 | `booster_used` | Which booster was used, and whether in a level or Endless |
 | `notification_opened` | That a game notification was tapped, and which kind (farm, streak or comeback) |
-| `day_active` | That the game was opened on a given day, at most once a day, how many days have passed since it was first opened on this device, and how many days in a row farm orders have been delivered |
+| `day_active` | That the game was opened on a given day, at most once a day, how many days have passed since it was first opened on this device, and how many days in a row farm orders have been delivered, and whether the music and sound settings are on or off |
 | `quest_claimed` | That farm quest rewards were collected, which kind (quest, streak gift or Daily Jar) and how many |
 | `farm_build` | Which farm building was restored or upgraded, and to which stage |
 
