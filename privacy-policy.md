@@ -1,7 +1,7 @@
 # Privacy Policy — Drop & Merge
 
 **Effective date:** 2026-09-06
-**Last updated:** 2026-11-12
+**Last updated:** 2026-11-13
 
 Drop & Merge, formerly Drop & Evolve ("the app", "the game"), is developed by **GC Apps** ("we", "us").
 
@@ -39,7 +39,7 @@ Settings screen. If you decline, or if you never answer, nothing in this
 section is collected. The app asks you once, after you first complete a level,
 with two equal choices; if you decline, it does not ask again.
 
-If you opt in, the app uses **Google Firebase Analytics** to record these sixteen
+If you opt in, the app uses **Google Firebase Analytics** to record these twenty-one
 events, and nothing else:
 
 | Event | What it records |
@@ -60,6 +60,11 @@ events, and nothing else:
 | `day_active` | That the game was opened on a given day, at most once a day, how many days have passed since it was first opened on this device, and how many days in a row farm orders have been delivered, and whether the music and sound settings are on or off |
 | `quest_claimed` | That farm quest rewards were collected, which kind (quest, streak gift or Daily Jar) and how many |
 | `farm_build` | Which farm building was restored or upgraded, and to which stage |
+| `farm_pet` | That a farm animal was petted, which kind of animal, and how many in-game coins it gave |
+| `visitor_greeted` | Which farm visitor was greeted, whether for the first time, and whether it is a rare one |
+| `album_set_claimed` | Which set of the farm's visitor album was completed and its reward collected |
+| `decor_bought` | Which farm decoration was bought with in-game materials (never real money) |
+| `decor_placed` | Which farm decoration was placed, and on which spot of the farm |
 
 These payloads contain only numbers and short internal labels. They contain no
 personal information and nothing you have typed.
