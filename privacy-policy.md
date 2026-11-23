@@ -1,7 +1,7 @@
 # Privacy Policy — Drop & Merge
 
 **Effective date:** 2026-09-06
-**Last updated:** 2026-11-13
+**Last updated:** 2026-11-23
 
 Drop & Merge, formerly Drop & Evolve ("the app", "the game"), is developed by **GC Apps** ("we", "us").
 
@@ -23,6 +23,10 @@ It is written to be read, not to be survived.
   copy of the save file in your Google account too. We never receive either.
 - **Analytics is off until you switch it on.** Nothing is sent to us unless you
   explicitly opt in, and you can opt back out at any time in Settings.
+- **Ideas you choose to send us.** Once, the game may ask what you would like
+  added or improved. Only if you write an answer and tap Send, the text reaches
+  us with your language, the app version and how far you have played. Nothing
+  that identifies you is attached, and the question can be skipped.
 - **No ad ever interrupts play.** Video ads are rewarded videos you tap to
   start; the only other ad is a small banner in a strip at the bottom of the
   screen.
@@ -122,12 +126,30 @@ Google account**, so your progress survives a new phone or a reinstall:
   save file (and only the save file) to your Google account and restores it when
   you reinstall. This follows your phone's backup setting, not ours.
 
-### 4. What we never collect
+### 4. Ideas you send us — only if you write one
+
+After you have played a while, the game may ask once what you would like us to
+add or improve, with two boosters as a thank-you. Answering is optional: "Not
+now" and the back button skip it.
+
+If you write an answer and tap **Send**, the app sends us:
+
+- the text you wrote (at most 500 characters)
+- the game's language, the app version, the furthest level you have cleared,
+  and whether you had just finished a level or an Endless game
+
+It is sent through Google Forms and stored in a Google Sheet that only we can
+open. No advertising ID, app instance ID, Play Games ID or other identifier is
+attached, so we cannot link an answer to you or your phone. **Please do not
+write your name, email address or other personal details in it.** If you do,
+we delete them when we read the answer.
+
+### 5. What we never collect
 
 No name, email address, phone number, postal address, contacts, calendar,
 photos, camera, microphone, files, precise or GPS location, health data,
-payment information, or anything you type. The app has no chat, no user-generated
-content, no social features and no in-app purchases.
+payment information, or anything else you type. The app has no chat, no
+social features and no in-app purchases.
 
 ---
 
@@ -159,6 +181,8 @@ in-app consent form and the Settings screen, and which you may withdraw at any
 time without affecting the lawfulness of processing before withdrawal. Saving
 your progress to Google Play Games is processed to provide the cloud save you
 use by signing in (Art. 6(1)(b)); you can stop it by signing out of Play Games.
+An idea you send us is processed on the basis of your consent (Art. 6(1)(a)),
+given by writing it and tapping Send.
 
 **Your rights.** You have the right to request access to, correction of,
 erasure of, or restriction of processing of your personal data; to object to
@@ -222,6 +246,7 @@ nothing else.
 | Google Play | App distribution | https://policies.google.com/privacy |
 | Google Play Games services | Sign-in and saving your progress, only if you use Play Games | https://policies.google.com/privacy |
 | Android backup (Google) | Backing up the save file, only if backup is on for your phone | https://policies.google.com/privacy |
+| Google Forms and Sheets | Receiving and storing an idea you send us, only if you send one | https://policies.google.com/privacy |
 
 Data processed by these services may be transferred outside the European
 Economic Area. Google relies on the EU Standard Contractual Clauses and, for the
@@ -234,6 +259,8 @@ retention window and is then deleted automatically. Advertising data is retained
 by Google under its own advertising policies. Data stored on your device is kept
 until you delete it in-app or uninstall the app. Copies of your progress in
 your Google account are kept until you delete them (see *Deleting your data*).
+Ideas you send us are kept while we use them to plan updates, and deleted at
+the latest 24 months after they arrive.
 
 ---
 
