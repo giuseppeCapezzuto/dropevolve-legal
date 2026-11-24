@@ -68,16 +68,18 @@ one that governs ads, which looks at your IP address to see whether EU-style
 rules apply) and your phone's region setting. If either points to Europe,
 Europe's rules apply. Nothing about this decision is sent to us.
 
-The totals cover these twenty-one events, and nothing else:
+The totals cover these twenty-three events, and nothing else:
 
 | Event | What it records |
 |---|---|
 | `level_start` | Which level was started, and which try at it this is |
-| `level_complete` | Which level was completed, the star rating, and how many of its drops were used |
-| `level_fail` | Which level was failed, the star rating, how many of its drops were used, and whether it ended on the drop limit, a full jar or the clock |
-| `level_quit` | Which level was left or restarted before it ended, and how many of its drops were used |
+| `level_complete` | Which level was completed, the star rating, how many of its drops were used, and how many seconds were played |
+| `level_fail` | Which level was failed, the star rating, how many of its drops were used, whether it ended on the drop limit, a full jar or the clock, and how many seconds were played |
+| `level_quit` | Which level was left or restarted before it ended, how many of its drops were used, and how many seconds were played |
 | `creature_discovered` | Which creature tier and variant was discovered |
-| `endless_game_over` | The run's score and your best score |
+| `endless_start` | That an Endless run was started or continued, and which of the two |
+| `endless_game_over` | The run's score, your best score, and how many seconds were played |
+| `endless_quit` | That an Endless run was put away to continue later, and how many seconds were played |
 | `rewarded_shown` | That a rewarded ad was displayed, and which reward |
 | `rewarded_completed` | That a rewarded ad was watched to the end, and for a free booster which one was picked |
 | `rewarded_failed` | That a rewarded ad could not be shown |

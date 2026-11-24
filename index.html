@@ -86,7 +86,7 @@ Each total carries only the date, the app version and the game's language
 one that governs ads, which looks at your IP address to see whether EU-style
 rules apply) and your phone's region setting. If either points to Europe,
 Europe's rules apply. Nothing about this decision is sent to us.</p>
-<p>The totals cover these twenty-one events, and nothing else:</p>
+<p>The totals cover these twenty-three events, and nothing else:</p>
 <table>
 <thead>
 <tr>
@@ -101,23 +101,31 @@ Europe's rules apply. Nothing about this decision is sent to us.</p>
 </tr>
 <tr>
 <td><code>level_complete</code></td>
-<td>Which level was completed, the star rating, and how many of its drops were used</td>
+<td>Which level was completed, the star rating, how many of its drops were used, and how many seconds were played</td>
 </tr>
 <tr>
 <td><code>level_fail</code></td>
-<td>Which level was failed, the star rating, how many of its drops were used, and whether it ended on the drop limit, a full jar or the clock</td>
+<td>Which level was failed, the star rating, how many of its drops were used, whether it ended on the drop limit, a full jar or the clock, and how many seconds were played</td>
 </tr>
 <tr>
 <td><code>level_quit</code></td>
-<td>Which level was left or restarted before it ended, and how many of its drops were used</td>
+<td>Which level was left or restarted before it ended, how many of its drops were used, and how many seconds were played</td>
 </tr>
 <tr>
 <td><code>creature_discovered</code></td>
 <td>Which creature tier and variant was discovered</td>
 </tr>
 <tr>
+<td><code>endless_start</code></td>
+<td>That an Endless run was started or continued, and which of the two</td>
+</tr>
+<tr>
 <td><code>endless_game_over</code></td>
-<td>The run's score and your best score</td>
+<td>The run's score, your best score, and how many seconds were played</td>
+</tr>
+<tr>
+<td><code>endless_quit</code></td>
+<td>That an Endless run was put away to continue later, and how many seconds were played</td>
 </tr>
 <tr>
 <td><code>rewarded_shown</code></td>
