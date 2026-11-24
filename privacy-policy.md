@@ -1,7 +1,7 @@
 # Privacy Policy — Drop & Merge
 
 **Effective date:** 2026-09-06
-**Last updated:** 2026-11-23
+**Last updated:** 2026-11-24
 
 Drop & Merge, formerly Drop & Evolve ("the app", "the game"), is developed by **GC Apps** ("we", "us").
 
@@ -21,8 +21,12 @@ It is written to be read, not to be survived.
   you use Google Play Games, your collection, coins and levels are saved there,
   so a new phone or a reinstall picks them up. Android's own backup may keep a
   copy of the save file in your Google account too. We never receive either.
-- **Analytics is off until you switch it on.** Nothing is sent to us unless you
-  explicitly opt in, and you can opt back out at any time in Settings.
+- **Gameplay stats are anonymous totals, and you can switch them off.** The
+  game counts things like "level 37 was lost 90 times today", with no
+  identifier of any kind, so no number can be traced back to you or your
+  phone. In the EEA, the UK and Switzerland they are off until you say yes; on
+  a new install elsewhere they start on. Either way, one switch in Settings
+  turns them off.
 - **Ideas you choose to send us.** Once, the game may ask what you would like
   added or improved. Only if you write an answer and tap Send, the text reaches
   us with your language, the app version and how far you have played. Nothing
@@ -35,16 +39,36 @@ It is written to be read, not to be survived.
 
 ## What the app collects
 
-### 1. Gameplay analytics — only if you opt in
+### 1. Anonymous gameplay stats
 
-Analytics collection is **disabled by default**. It is enabled only if you
-explicitly agree, and you can disable it again at any time from the in-app
-Settings screen. If you decline, or if you never answer, nothing in this
-section is collected. The app asks you once, after you first complete a level,
-with two equal choices; if you decline, it does not ask again.
+The game keeps **daily totals** of what happens in play, such as how many
+times a level was won or lost and how many drops it took on average. Before
+anything leaves your phone, the events of the day are added together into
+these totals. What is sent contains **no identifier of any kind**: no
+advertising ID, no device or installation ID, no account, nothing you typed.
+Each total carries only the date, the app version and the game's language
+(for example `de`, never your country).
 
-If you opt in, the app uses **Google Firebase Analytics** to record these twenty-one
-events, and nothing else:
+**When they are sent.**
+
+- **In the EEA, the UK and Switzerland** (or whenever the app cannot tell where
+  you are), stats are **off** until you agree. The app asks you once you have
+  won level 4, with two equal choices. If you decline, it asks again at most
+  twice, six months apart.
+- **Elsewhere, on an install that began with this version,** stats start
+  **on**, without a question.
+- **Elsewhere, on an older install,** nothing changes: stats stay off unless
+  you said yes before or switch them on in Settings. The app does not ask.
+- **Everywhere,** the **Analytics** switch in Settings turns them off at
+  once, and what was waiting to be sent is deleted. A "no" you gave earlier is
+  kept everywhere.
+
+To decide which rule applies, the app uses Google's consent check (the same
+one that governs ads, which looks at your IP address to see whether EU-style
+rules apply) and your phone's region setting. If either points to Europe,
+Europe's rules apply. Nothing about this decision is sent to us.
+
+The totals cover these twenty-one events, and nothing else:
 
 | Event | What it records |
 |---|---|
@@ -70,18 +94,19 @@ events, and nothing else:
 | `decor_bought` | Which farm decoration was bought with in-game materials (never real money) |
 | `decor_placed` | Which farm decoration was placed, and on which spot of the farm |
 
-These payloads contain only numbers and short internal labels. They contain no
+These totals contain only numbers and short internal labels. They contain no
 personal information and nothing you have typed.
 
-Alongside these, Firebase Analytics automatically collects a standard technical
-set: a randomly generated **app instance identifier** (a pseudonymous ID for the
-installation, not for you), your device model, operating system version, app
-version, device language, and an **approximate region derived from your IP
-address** — country level, not a location.
+They are sent to our own small server, run on **Cloudflare**. Cloudflare
+necessarily sees your IP address to deliver the request, as with any internet
+connection; our server does not read or keep it, keeps no request logs, and
+stores only the totals. Before each send, the app asks the server whether
+collection is on; we can switch it off for every player at once.
 
-We use this to understand which levels are too hard, which are too easy, and
-whether players reach the end of the creature chain. It is never used to
-identify you and is never sold.
+We use the totals to see which levels are too hard or too easy, and whether
+players come back. They cannot identify you and are never sold or shared. We
+keep them only in this anonymous form and will never try to link them to a
+person or a device.
 
 ### 2. Advertising — Google AdMob
 
@@ -157,12 +182,12 @@ social features and no in-app purchases.
 
 | Permission | Why |
 |---|---|
-| `INTERNET`, `ACCESS_NETWORK_STATE` | To load ads and, if you opted in, send analytics |
+| `INTERNET`, `ACCESS_NETWORK_STATE` | To load ads and send anonymous gameplay stats |
 | `VIBRATE` | Haptic feedback on merges and button presses |
 | `POST_NOTIFICATIONS`, `RECEIVE_BOOT_COMPLETED` | Reminders that your farm is full or your streak is about to end. They are scheduled on your phone, restored if it restarts, send nothing to us, and can be turned off in Settings |
 | `AD_ID` | Required by Google AdMob to serve ads |
 | `ACCESS_ADSERVICES_TOPICS`, `ACCESS_ADSERVICES_AD_ID`, `ACCESS_ADSERVICES_ATTRIBUTION` | Added by the Google Mobile Ads SDK for Android's Privacy Sandbox |
-| `READ_BASIC_PHONE_STATE`, `WAKE_LOCK`, `FOREGROUND_SERVICE`, `BIND_GET_INSTALL_REFERRER_SERVICE` | Added automatically by Google Play services and the ads SDK. The last is Play's install-referrer service, used for install attribution. |
+| `READ_BASIC_PHONE_STATE`, `WAKE_LOCK`, `FOREGROUND_SERVICE` | Added automatically by Google Play services and the ads SDK |
 
 The last two rows are declared by Google's own libraries rather than by us. We
 list them because they appear in the app's manifest and you are entitled to know
@@ -175,10 +200,13 @@ why they are there.
 GC Apps is established in Belgium, so the EU General Data Protection
 Regulation applies to this app everywhere it is distributed.
 
-**Legal basis.** Analytics and personalised advertising are processed on the
-basis of your **consent** (GDPR Art. 6(1)(a)), which you give through the
-in-app consent form and the Settings screen, and which you may withdraw at any
-time without affecting the lawfulness of processing before withdrawal. Saving
+**Legal basis.** Personalised advertising is processed on the basis of your
+**consent** (GDPR Art. 6(1)(a)), which you give through the in-app consent
+form, and which you may withdraw at any time without affecting the lawfulness
+of processing before withdrawal. The gameplay stats are anonymous totals and
+not personal data; in the EEA, the UK and Switzerland they are still sent only
+with your consent, given through the in-app question or the Settings switch,
+because reading information from your device needs it there. Saving
 your progress to Google Play Games is processed to provide the cloud save you
 use by signing in (Art. 6(1)(b)); you can stop it by signing out of Play Games.
 An idea you send us is processed on the basis of your consent (Art. 6(1)(a)),
@@ -188,11 +216,13 @@ given by writing it and tapping Send.
 erasure of, or restriction of processing of your personal data; to object to
 processing; and to data portability. Because the app holds no account of its
 own and we receive no identifier that points to you as a person, we will usually need the advertising
-ID or app instance ID from your device to act on such a request. Write to
+ID from your device to act on a request about ads data. The gameplay stats
+hold nothing that can be linked to you, so there is nothing in them to access
+or erase for one person. Write to
 **gcapplicationdev@gmail.com** and we will respond within one month.
 
-**Withdrawing consent.** Open **Settings** in the app. The analytics switch
-turns collection off immediately. The privacy options row reopens the ads
+**Withdrawing consent.** Open **Settings** in the app. The Analytics
+switch turns them off immediately. The privacy options row reopens the ads
 consent form.
 
 **Complaints.** You may lodge a complaint with the Belgian Data Protection
@@ -217,20 +247,22 @@ your data deleted:
    are managed, and can be deleted, in your Google account's backup settings.
    Delete both before reinstalling, or the game will restore your progress.
 3. **Stop anything new being collected.** In the app, open **Settings**, turn
-   the analytics switch off, and use the privacy options row to withdraw ads
-   consent.
+   the Analytics switch off, and use the privacy options row to withdraw
+   ads consent.
 4. **Delete your advertising ID.** On Android, open **Settings → Google → Ads**
    (on some phones **Settings → Privacy → Ads**) and choose **Delete
    advertising ID**. Advertising data Google already holds is then no longer
    linked to your phone.
-5. **Ask us to erase analytics data.** Email **gcapplicationdev@gmail.com** with
-   the subject "Delete my data — Drop & Merge". If you never switched
-   analytics on, there is none. We reply within one month.
+5. **Ask us anything about your data.** Email **gcapplicationdev@gmail.com**
+   with the subject "Delete my data — Drop & Merge". The gameplay stats are
+   anonymous totals with nothing that points to you, so there is no record of
+   yours in them to delete. We reply within one month.
 
 **What is deleted, and what is kept.** Your save file is deleted in step 1,
 and its copies in your Google account in step 2.
-Analytics data is deleted on request where we can link it to your device, and
-in every case automatically at the end of Firebase's retention window.
+Gameplay stats are anonymous totals, deleted automatically after 24 months.
+Older versions of the app sent analytics to Google Firebase if you had opted
+in; that data is held by Google and deleted at the end of its retention window.
 Advertising data is held by Google, not by us, and is kept under Google's own
 retention policy (https://policies.google.com/technologies/retention). We keep
 nothing else.
@@ -241,7 +273,7 @@ nothing else.
 
 | Processor | Purpose | Their policy |
 |---|---|---|
-| Google Firebase Analytics | Gameplay analytics, only if you opted in | https://firebase.google.com/support/privacy |
+| Cloudflare | Hosting our server that receives the anonymous gameplay stats | https://www.cloudflare.com/privacypolicy/ |
 | Google AdMob | Serving rewarded video and banner ads | https://policies.google.com/technologies/ads |
 | Google Play | App distribution | https://policies.google.com/privacy |
 | Google Play Games services | Sign-in and saving your progress, only if you use Play Games | https://policies.google.com/privacy |
@@ -249,13 +281,14 @@ nothing else.
 | Google Forms and Sheets | Receiving and storing an idea you send us, only if you send one | https://policies.google.com/privacy |
 
 Data processed by these services may be transferred outside the European
-Economic Area. Google relies on the EU Standard Contractual Clauses and, for the
-United States, the EU–US Data Privacy Framework for such transfers.
+Economic Area. Google and Cloudflare rely on the EU Standard Contractual
+Clauses and, for the United States, the EU–US Data Privacy Framework for such
+transfers.
 
 ## How long it is kept
 
-Analytics data is retained by Firebase according to the project's configured
-retention window and is then deleted automatically. Advertising data is retained
+Anonymous gameplay stats are kept for at most 24 months and then deleted
+automatically. Advertising data is retained
 by Google under its own advertising policies. Data stored on your device is kept
 until you delete it in-app or uninstall the app. Copies of your progress in
 your Google account are kept until you delete them (see *Deleting your data*).
