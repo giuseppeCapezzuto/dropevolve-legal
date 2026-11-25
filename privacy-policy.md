@@ -1,7 +1,7 @@
 # Privacy Policy — Drop & Merge
 
 **Effective date:** 2026-09-06
-**Last updated:** 2026-11-24
+**Last updated:** 2026-11-25
 
 Drop & Merge, formerly Drop & Evolve ("the app", "the game"), is developed by **GC Apps** ("we", "us").
 
@@ -68,7 +68,7 @@ one that governs ads, which looks at your IP address to see whether EU-style
 rules apply) and your phone's region setting. If either points to Europe,
 Europe's rules apply. Nothing about this decision is sent to us.
 
-The totals cover these twenty-three events, and nothing else:
+The totals cover these twenty-eight events, and nothing else:
 
 | Event | What it records |
 |---|---|
@@ -95,6 +95,11 @@ The totals cover these twenty-three events, and nothing else:
 | `album_set_claimed` | Which set of the farm's visitor album was completed and its reward collected |
 | `decor_bought` | Which farm decoration was bought with in-game materials (never real money) |
 | `decor_placed` | Which farm decoration was placed, and on which spot of the farm |
+| `coins_earned` | How many in-game coins were earned (never real money), and from what: a level, Endless, a discovery, a rewarded ad, a reward claimed, the farm, petting or the farm tour |
+| `coins_spent` | How many in-game coins were spent (never real money), and on what: the shop, a rescue, a farm building or restoring a streak |
+| `screen_opened` | Which screen was opened: the farm, the shop, settings, quests or the album |
+| `session_end` | That the game went to the background, and how many seconds it had been open since it was last opened or brought back |
+| `review_asked` | That Google Play was asked to show its rating window (Google does not tell us whether it was shown or what you answered) |
 
 These totals contain only numbers and short internal labels. They contain no
 personal information and nothing you have typed.
