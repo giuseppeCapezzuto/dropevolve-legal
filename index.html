@@ -29,7 +29,7 @@
 </style></head><body>
 <h1 id="privacy-policy-drop-merge">Privacy Policy — Drop &amp; Merge</h1>
 <p><strong>Effective date:</strong> 2026-09-06
-<strong>Last updated:</strong> 2026-11-25</p>
+<strong>Last updated:</strong> 2026-11-27</p>
 <p>Drop &amp; Merge, formerly Drop &amp; Evolve ("the app", "the game"), is developed by <strong>GC Apps</strong> ("we", "us").</p>
 <p>Contact for any privacy question or request: <strong>gcapplicationdev@gmail.com</strong></p>
 <p>This policy explains what the app collects, why, and what you can do about it.
@@ -54,6 +54,11 @@ It is written to be read, not to be survived.</p>
   added or improved. Only if you write an answer and tap Send, the text reaches
   us with your language, the app version and how far you have played. Nothing
   that identifies you is attached, and the question can be skipped.</li>
+<li><strong>The weekly league and world records are off until you join.</strong> If you tap
+  Join, our server keeps a nickname picked from the game's list, an animal, and
+  your level and Endless results, under a random code made on your phone. Other
+  players see your nickname, animal and results. You can leave at any time, and
+  leaving deletes everything the server holds about you.</li>
 <li><strong>No ad ever interrupts play.</strong> Video ads are rewarded videos you tap to
   start; the only other ad is a small banner in a strip at the bottom of the
   screen.</li>
@@ -86,7 +91,7 @@ Each total carries only the date, the app version and the game's language
 one that governs ads, which looks at your IP address to see whether EU-style
 rules apply) and your phone's region setting. If either points to Europe,
 Europe's rules apply. Nothing about this decision is sent to us.</p>
-<p>The totals cover these twenty-eight events, and nothing else:</p>
+<p>The totals cover these thirty-three events, and nothing else:</p>
 <table>
 <thead>
 <tr>
@@ -189,7 +194,7 @@ Europe's rules apply. Nothing about this decision is sent to us.</p>
 </tr>
 <tr>
 <td><code>coins_earned</code></td>
-<td>How many in-game coins were earned (never real money), and from what: a level, Endless, a discovery, a rewarded ad, a reward claimed, the farm, petting or the farm tour</td>
+<td>How many in-game coins were earned (never real money), and from what: a level, Endless, a discovery, a rewarded ad, a reward claimed, the farm, petting, the farm tour or a league prize</td>
 </tr>
 <tr>
 <td><code>coins_spent</code></td>
@@ -197,7 +202,7 @@ Europe's rules apply. Nothing about this decision is sent to us.</p>
 </tr>
 <tr>
 <td><code>screen_opened</code></td>
-<td>Which screen was opened: the farm, the shop, settings, quests or the album</td>
+<td>Which screen was opened: the farm, the shop, settings, quests, the album or the league</td>
 </tr>
 <tr>
 <td><code>session_end</code></td>
@@ -206,6 +211,26 @@ Europe's rules apply. Nothing about this decision is sent to us.</p>
 <tr>
 <td><code>review_asked</code></td>
 <td>That Google Play was asked to show its rating window (Google does not tell us whether it was shown or what you answered)</td>
+</tr>
+<tr>
+<td><code>league_invited</code></td>
+<td>That the one-time invitation to the weekly league was shown, and whether after a level or after Endless runs</td>
+</tr>
+<tr>
+<td><code>league_joined</code></td>
+<td>That the weekly league was joined, and whether from the invitation or the League button</td>
+</tr>
+<tr>
+<td><code>league_left</code></td>
+<td>That the weekly league was left</td>
+</tr>
+<tr>
+<td><code>league_week</code></td>
+<td>That a league week ended for the player, the league tier now held, and whether it went up, stayed or went down</td>
+</tr>
+<tr>
+<td><code>world_record</code></td>
+<td>That a new world record was set, and whether in a level or in Endless</td>
 </tr>
 </tbody>
 </table>
@@ -220,7 +245,41 @@ collection is on; we can switch it off for every player at once.</p>
 players come back. They cannot identify you and are never sold or shared. We
 keep them only in this anonymous form and will never try to link them to a
 person or a device.</p>
-<h3 id="2-advertising-google-admob">2. Advertising — Google AdMob</h3>
+<h3 id="2-the-weekly-league-and-world-records-only-if-you-join">2. The weekly league and world records — only if you join</h3>
+<p>Anyone can see the world records: the best result on each level and in
+Endless, with the holder's nickname. Looking at them sends nothing about you.</p>
+<p>The league itself is <strong>off until you tap Join</strong>. The game invites you once,
+after you win level 5 or finish your third Endless run; after that you can
+join from the League button on the map.</p>
+<p><strong>What joining stores.</strong> Your phone makes a random code and keeps it in the
+save file. Our server never keeps the code itself, only a one-way scrambled
+form of it (a SHA-256 hash), which it uses as your player ID. Under that ID it
+keeps:</p>
+<ul>
+<li>your nickname (chosen from a fixed list in the game, plus a 4-digit number)
+  and the animal you picked</li>
+<li>your league tier, the week you joined and the last week you played</li>
+<li>your fewest drops on each level you have cleared, and when you set it</li>
+<li>your best Endless score, and when you set it</li>
+<li>your league points for each week, from levels, Endless, the Daily Jar and
+  farm quests, and your result and prize for each week</li>
+</ul>
+<p>The game sends your best results once when you join, then each new result as
+you play. Nothing you type is sent: there is no free text, so there is no chat
+and no name you write yourself.</p>
+<p><strong>What other players see.</strong> Your nickname, number, animal, tier, weekly points
+and rank in your league group, and the records you hold. Nothing else.</p>
+<p><strong>What the server does not keep.</strong> Your IP address, your device, your Google
+account, your advertising ID or your Play Games ID. Cloudflare sees your IP
+address to deliver each request, as with any internet connection; our server
+does not read or keep it and keeps no request logs.</p>
+<p><strong>Leaving.</strong> Open the League sheet, tap your nickname, then <strong>Leave the
+league</strong>. The game asks the server to delete your player and every result
+under it, and forgets the code on your phone. If you stop playing, the server
+deletes everything about you after a year with no results.</p>
+<p>If you use Google Play Games, the code travels with your saved progress (see
+section 4), so a new phone stays in the same league.</p>
+<h3 id="3-advertising-google-admob">3. Advertising — Google AdMob</h3>
 <p>The app shows two kinds of ad. <strong>Rewarded videos</strong>, which you always start
 yourself by tapping an offer, and a <strong>banner</strong> in a fixed strip at the bottom
 of the screen. No ad ever interrupts a run: there are no pop-up or full-screen
@@ -233,7 +292,7 @@ the consent form the app shows you.</p>
 fraud prevention, but are not selected based on a profile of your interests.</p>
 <p>You can reset or delete your advertising ID at any time in your device's
 <strong>Settings → Privacy → Ads</strong>.</p>
-<h3 id="3-your-game-progress-on-your-phone-and-in-your-google-account">3. Your game progress — on your phone and in your Google account</h3>
+<h3 id="4-your-game-progress-on-your-phone-and-in-your-google-account">4. Your game progress — on your phone and in your Google account</h3>
 <p>The following is written to a save file inside the app's private storage on your
 phone:</p>
 <ul>
@@ -241,6 +300,8 @@ phone:</p>
 <li>Your level progress, star ratings and best scores</li>
 <li>Coins, purchased cosmetics and boosters</li>
 <li>Your settings: language, haptics, sound, music, and your analytics choice</li>
+<li>If you joined the league: its random code, your nickname and animal, and
+  results not yet sent</li>
 </ul>
 <p><strong>It is never sent to us.</strong> Two Google services can keep a copy <strong>in your own
 Google account</strong>, so your progress survives a new phone or a reinstall:</p>
@@ -248,7 +309,7 @@ Google account</strong>, so your progress survives a new phone or a reinstall:</
 <li><strong>Google Play Games.</strong> If you are signed in to Play Games — most Android
   phones sign you in automatically, and you can also sign in from the game's
   Settings — the game saves your discoveries, levels, best score, coins,
-  cosmetics and boosters there (never your settings). To sign you in, Play Games
+  cosmetics, boosters and league code there (never your settings). To sign you in, Play Games
   shares your Play Games profile with the game: your player ID, gamer name and
   avatar. Google also collects its own diagnostics to keep the service working.
   If you do not sign in, nothing is saved to Play Games and the game works
@@ -257,7 +318,7 @@ Google account</strong>, so your progress survives a new phone or a reinstall:</
   save file (and only the save file) to your Google account and restores it when
   you reinstall. This follows your phone's backup setting, not ours.</li>
 </ul>
-<h3 id="4-ideas-you-send-us-only-if-you-write-one">4. Ideas you send us — only if you write one</h3>
+<h3 id="5-ideas-you-send-us-only-if-you-write-one">5. Ideas you send us — only if you write one</h3>
 <p>After you have played a while, the game may ask once what you would like us to
 add or improve, with two boosters as a thank-you. Answering is optional: "Not
 now" and the back button skip it.</p>
@@ -272,11 +333,12 @@ open. No advertising ID, app instance ID, Play Games ID or other identifier is
 attached, so we cannot link an answer to you or your phone. <strong>Please do not
 write your name, email address or other personal details in it.</strong> If you do,
 we delete them when we read the answer.</p>
-<h3 id="5-what-we-never-collect">5. What we never collect</h3>
+<h3 id="6-what-we-never-collect">6. What we never collect</h3>
 <p>No name, email address, phone number, postal address, contacts, calendar,
 photos, camera, microphone, files, precise or GPS location, health data,
 payment information, or anything else you type. The app has no chat, no
-social features and no in-app purchases.</p>
+messages between players and no in-app purchases; the league's only social
+feature is the nicknames and results described in section 2.</p>
 <hr />
 <h2 id="permissions-the-app-requests">Permissions the app requests</h2>
 <table>
@@ -289,7 +351,7 @@ social features and no in-app purchases.</p>
 <tbody>
 <tr>
 <td><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code></td>
-<td>To load ads and send anonymous gameplay stats</td>
+<td>To load ads, send anonymous gameplay stats, show world records and, if you joined, take part in the league</td>
 </tr>
 <tr>
 <td><code>VIBRATE</code></td>
@@ -330,14 +392,18 @@ because reading information from your device needs it there. Saving
 your progress to Google Play Games is processed to provide the cloud save you
 use by signing in (Art. 6(1)(b)); you can stop it by signing out of Play Games.
 An idea you send us is processed on the basis of your consent (Art. 6(1)(a)),
-given by writing it and tapping Send.</p>
+given by writing it and tapping Send. The league is processed on the basis of
+your consent (Art. 6(1)(a)), given by tapping Join after reading what other
+players will see; leaving withdraws it and deletes the data.</p>
 <p><strong>Your rights.</strong> You have the right to request access to, correction of,
 erasure of, or restriction of processing of your personal data; to object to
 processing; and to data portability. Because the app holds no account of its
 own and we receive no identifier that points to you as a person, we will usually need the advertising
 ID from your device to act on a request about ads data. The gameplay stats
 hold nothing that can be linked to you, so there is nothing in them to access
-or erase for one person. Write to
+or erase for one person. League data is erased by leaving the league in the
+game; for any other request about it, tell us your nickname and its 4-digit
+number. Write to
 <strong>gcapplicationdev@gmail.com</strong> and we will respond within one month.</p>
 <p><strong>Withdrawing consent.</strong> Open <strong>Settings</strong> in the app. The Analytics
 switch turns them off immediately. The privacy options row reopens the ads
@@ -362,7 +428,9 @@ your data deleted:</p>
    Delete both before reinstalling, or the game will restore your progress.</li>
 <li><strong>Stop anything new being collected.</strong> In the app, open <strong>Settings</strong>, turn
    the Analytics switch off, and use the privacy options row to withdraw
-   ads consent.</li>
+   ads consent. If you joined the league, leave it first (League sheet → your
+   nickname → <strong>Leave the league</strong>): this deletes your league data on our
+   server, which uninstalling alone does not.</li>
 <li><strong>Delete your advertising ID.</strong> On Android, open <strong>Settings → Google → Ads</strong>
    (on some phones <strong>Settings → Privacy → Ads</strong>) and choose <strong>Delete
    advertising ID</strong>. Advertising data Google already holds is then no longer
@@ -375,6 +443,8 @@ your data deleted:</p>
 <p><strong>What is deleted, and what is kept.</strong> Your save file is deleted in step 1,
 and its copies in your Google account in step 2.
 Gameplay stats are anonymous totals, deleted automatically after 24 months.
+League data is deleted when you leave the league, or after a year with no
+results.
 Older versions of the app sent analytics to Google Firebase if you had opted
 in; that data is held by Google and deleted at the end of its retention window.
 Advertising data is held by Google, not by us, and is kept under Google's own
@@ -393,7 +463,7 @@ nothing else.</p>
 <tbody>
 <tr>
 <td>Cloudflare</td>
-<td>Hosting our server that receives the anonymous gameplay stats</td>
+<td>Hosting our server that receives the anonymous gameplay stats and runs the league and world records</td>
 <td>https://www.cloudflare.com/privacypolicy/</td>
 </tr>
 <tr>
@@ -429,7 +499,8 @@ Clauses and, for the United States, the EU–US Data Privacy Framework for such
 transfers.</p>
 <h2 id="how-long-it-is-kept">How long it is kept</h2>
 <p>Anonymous gameplay stats are kept for at most 24 months and then deleted
-automatically. Advertising data is retained
+automatically. League data is kept while you are in the league and deleted
+when you leave it, or a year after your last result. Advertising data is retained
 by Google under its own advertising policies. Data stored on your device is kept
 until you delete it in-app or uninstall the app. Copies of your progress in
 your Google account are kept until you delete them (see <em>Deleting your data</em>).
